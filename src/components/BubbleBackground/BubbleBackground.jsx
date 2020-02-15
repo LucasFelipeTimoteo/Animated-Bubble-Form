@@ -14,6 +14,10 @@ const BubbleBackground = () => {
             <div className="bubble"></div>
             <div className="bubble"></div>
             <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
+            <div className="bubble"></div>
         </div>
      );
 }
