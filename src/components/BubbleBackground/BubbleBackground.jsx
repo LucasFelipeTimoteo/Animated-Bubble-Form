@@ -1,8 +1,9 @@
 import React from 'react';
+import './BubbleBackground.css'
 
 const BubbleBackground = () => {
     return ( 
-        <div className="bubbleBackground">
+        <div className="bubble-background">
             <div className="bubble"></div>
             <div className="bubble"></div>
             <div className="bubble"></div>
