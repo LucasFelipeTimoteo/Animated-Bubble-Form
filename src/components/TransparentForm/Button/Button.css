@@ -12,24 +12,28 @@
     z-index: 1;
   }
   
-  .btn::before,.btn::after{
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 4px;
-    background: #092f6d;
-    transform: skewX(50deg);
-    transition: .4s linear;
-  }
-  
   .btn::before{
     top: -4px;
     left: 10%;
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 4px;
+    background: #07275d;
+    transform: skewX(50deg);
+    transition: .4s linear;
   }
   
   .btn::after{
     bottom: -4px;
     right: 10%;
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 4px;
+    background: #041f4b;
+    transform: skewX(50deg);
+    transition: .4s linear;
   }
   
   .btn:hover::before{

@@ -4,7 +4,7 @@
     height: 100%;
     display: flex;
     flex-flow: column nowrap;
-    background: linear-gradient( #336dca, #0b367c,rgb(1, 7, 22));
+    background: linear-gradient( #336dca, #0b367c, #041d46, #000308);
     overflow: hidden;
 }
 
