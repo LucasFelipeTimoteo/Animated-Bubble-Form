@@ -5,13 +5,17 @@ const Inputs = () => {
     return (
         <React.Fragment>
             <div class="name">
-                <i class="fa fa-user"></i>
-                <input placeholder="name..." type="text" />
+                <label htmlFor="name">
+                    <i class="fa fa-user"></i>
+                </label>
+                <input placeholder="name..." type="text" id="name" />
             </div>
 
             <div class="password">
-                <i class="fa fa-lock"></i>
-                <input placeholder="password..." type="password" />
+                <label htmlFor="password">
+                    <i class="fa fa-lock"></i>
+                </label>
+                <input placeholder="password..." type="password" id="password" />
             </div>
         </React.Fragment>
     );
