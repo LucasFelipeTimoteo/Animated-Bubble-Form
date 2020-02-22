@@ -1,6 +1,6 @@
 # Animated-Bubble-Form
 
-![Template image](/src/components/screenshots/formPrint.png)
+![Template image](/src/screenshots/formPrint.png)
 
 ## content
 - animated bubbles
