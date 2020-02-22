@@ -21,7 +21,7 @@
     width: 25px;
     height: 4px;
     background: #07275d;
-    transform: skewX(66deg);
+    transform: skewX(60deg);
     transition: .4s linear;
   }
   
@@ -33,17 +33,17 @@
     width: 25px;
     height: 4px;
     background: #041f4b;
-    transform: skewX(66deg);
+    transform: skewX(60deg);
     transition: .4s linear;
   }
   
   .btn:hover::before{
     left: 70%;
-    transform: skewX(-66deg);
+    transform: skewX(-60deg);
   }
   
   .btn:hover::after{
     right: 70%;
-    transform: skewX(-66deg);
+    transform: skewX(-60deg);
   }
   
