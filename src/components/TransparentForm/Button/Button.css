@@ -1,10 +1,9 @@
 .btn{
     width: 150px;
-    /* height: 60px; */
-    padding: 20px;
+    height: 50px;
     background: none;
     border: 4px solid;
-    color: #ffffffc0;
+    color: #ffffffab;
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
@@ -21,7 +20,7 @@
     width: 25px;
     height: 4px;
     background: #07275d;
-    transform: skewX(60deg);
+    transform: skewX(75deg);
     transition: .4s linear;
   }
   
@@ -33,17 +32,17 @@
     width: 25px;
     height: 4px;
     background: #041f4b;
-    transform: skewX(60deg);
+    transform: skewX(75deg);
     transition: .4s linear;
   }
   
   .btn:hover::before{
     left: 70%;
-    transform: skewX(-60deg);
+    transform: skewX(-75deg);
   }
   
   .btn:hover::after{
     right: 70%;
-    transform: skewX(-60deg);
+    transform: skewX(-75deg);
   }
   
