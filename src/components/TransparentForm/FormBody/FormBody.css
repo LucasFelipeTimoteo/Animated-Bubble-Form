@@ -1,7 +1,3 @@
-:root {
-    --form-color:#ffffffc0;
-}
-
 .form {
     display: flex;
     flex-flow: column nowrap;
