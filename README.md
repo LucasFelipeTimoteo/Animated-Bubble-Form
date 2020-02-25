@@ -1,8 +1,7 @@
-# Animated-Bubble-Form
+## Demo GIF
+![demo](/src/demo/Login.gif)
 
-![Template image](/src/screenshots/formPrint.png)
-
-## content
+### content
 - animated bubbles
 - animated button
 - sea background
